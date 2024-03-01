@@ -59,7 +59,23 @@ public class Test{
 		System.out.println(amisa.phoneNumber);
 		System.out.println(amisa.address);
 		
+		
+		Robot aibo = new Robot();
+		aibo.name="aibo";
+		aibo.talk();
+		
+		Robot asimo = new Robot();
+		asimo.name="asimo";
+		asimo.talk();
+		asimo.walk();
+		
+		Robot pepper = new Robot();
+		pepper.name ="pepper";
+		pepper.talk();
+		pepper.run();
 	}
+		
+		
 	
 	
 }
